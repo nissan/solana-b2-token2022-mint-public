@@ -1,0 +1,27 @@
+{
+  "name": "solana-b2-token2022-mint",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "22.23.5" },
+  "packageManager": "pnpm@10.9.0",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "test": "pnpm run build && node --test dist/test/smoke.test.js",
+    "create-mint": "node dist/src/create-mint.js",
+    "mint-holder": "node dist/src/mint-holder.js",
+    "transfer-fee": "node dist/src/transfer-fee.js",
+    "withdraw-fees": "node dist/src/withdraw-fees.js",
+    "handover": "node dist/src/handover.js"
+  },
+  "dependencies": {
+    "@solana-program/token-2022": "0.20.1",
+    "@solana/kit": "8.6.0",
+    "@solana/sysvars": "8.6.0",
+    "@solana/zk-sdk": "0.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "typescript": "5.9.3"
+  }
+}
