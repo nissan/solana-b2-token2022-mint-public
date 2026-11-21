@@ -1,6 +1,6 @@
 # The Solana Deeds #2 · Token-2022 transfer fees
 
-A TypeScript devnet demo that creates a fee-bearing mint, sends tokens, and collects the fee. See the [article](https://www.reddi.tech/blog/solana-b2-token2022-mint) and [narrated demo](https://youtu.be/GgnINWPgHoM).
+A TypeScript devnet demo that creates a fee-bearing mint, sends tokens, and collects the fee. See the [article](https://www.reddi.tech/blog/solana-b2-token2022-mint) and [narrated demo](https://youtu.be/aoQO8YkuVZQ).
 
 In the recorded run, a 1,000-token [transfer](https://solscan.io/tx/52Ut51DmdXcGbxQVoGbBGDtcxRXFeAWnFcmaxL6BL2sP4LkQFgvVJmqyMcZQGj9dg88KUMXrUKVq46Pj458EixUW?cluster=devnet) credited 975 spendable tokens and set 25 aside in the recipient's token account. A separate [withdrawal](https://solscan.io/tx/2sLpviTGGuX83gzdtbAMwDXxNnv212VMZwonGsrEBHMbjmmyKPmLEjDzNm4AEViNyeFTvEkpvMWtqBQF2oFL8PT6?cluster=devnet) credited those 25 to the treasury.
 
